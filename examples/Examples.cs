@@ -1,5 +1,5 @@
+﻿using AADS;
 using static AADS.Algorithms;
-using AADS.Datastructures;
 
 class Examples
 {

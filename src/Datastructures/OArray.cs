@@ -1,5 +1,5 @@
 using System.Collections;
-namespace AADS.Datastructures;
+namespace AADS;
 
 public class OArray<T> : IEnumerable<T>
 {
