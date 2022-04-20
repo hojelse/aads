@@ -1,8 +1,6 @@
-using System.Collections.Generic;
-
 namespace AADS;
 
-public class Primes
+public class Algorithms
 {
   public static int[] GetPrimes(int upperBound)
   {
