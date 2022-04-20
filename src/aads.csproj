@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>AADS</PackageId>
-    <Version>0.2.0-alpha.2</Version>
+    <Version>0.2.0</Version>
     <Author>Kristoffer Højelse</Author>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>

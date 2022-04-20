@@ -10,7 +10,7 @@ jobs:
     name: build, pack & push
     runs-on: ubuntu-latest
 
-    if: contains(github.event.head_commit.message, 'test_cd')
+    if: contains(github.event.head_commit.message, 'Bump to version')
     steps:
       - uses: actions/checkout@v2
 
