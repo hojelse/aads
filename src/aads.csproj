@@ -1,17 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Version>0.3.2</Version>
+    <Author>Kristoffer Højelse</Author>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- NuGet package -->
+  <PropertyGroup>
     <PackageId>AADS</PackageId>
-    <Version>0.3.1</Version>
-    <Author>Kristoffer Højelse</Author>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Title>AADS</Title>
     <Description>
       A few algorithms and datastructures for C#
     </Description>
+    <Authors>hojelse</Authors>
     <PackageTags>algorithms;datastructures</PackageTags>
+    <PackageProjectUrl>https://github.com/hojelse/aads</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
