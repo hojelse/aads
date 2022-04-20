@@ -11,4 +11,14 @@ public static class ExtensionMethods
   {
     return ((number % modulus) + modulus) % modulus;
   }
+
+  public static bool isEven(this int num)
+  {
+    return isDivisibleBy(num, 2);
+  }
+
+  public static bool isDivisibleBy(this int num, int divisor)
+  {
+    return num % divisor == 0;
+  }
 }
