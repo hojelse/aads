@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>AADS</PackageId>
+    <Version>0.1.0</Version>
+    <Author>Kristoffer Højelse</Author>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>
+      A few algorithms and datastructures for C#
+    </Description>
+    <PackageTags>algorithms;datastructures</PackageTags>
+  </PropertyGroup>
+
+</Project>
