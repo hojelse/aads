@@ -1,4 +1,4 @@
-﻿using static AADS.Algorithms;
+using static AADS.Algorithms;
 using AADS.Datastructures;
 
 class Examples
@@ -8,6 +8,13 @@ class Examples
     Example_Prime_GetPrimes();
     Console.WriteLine();
     Example_Datastructure_OArray();
+  }
+
+  static void Example_ExtensionMethods_Mod()
+  {
+    int number = -1;
+    int modulus = 10;
+    int remainder = number.Mod(modulus);
   }
 
   static void Example_Prime_GetPrimes()

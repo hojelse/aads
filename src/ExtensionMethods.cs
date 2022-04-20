@@ -7,8 +7,8 @@ public static class ExtensionMethods
     return dividend % divisor;
   }
 
-  public static int Mod(this int dividend, int divisor)
+  public static int Mod(this int number, int modulus)
   {
-    return ((dividend % divisor) + divisor) % divisor;
+    return ((number % modulus) + modulus) % modulus;
   }
 }
