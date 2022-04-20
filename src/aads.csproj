@@ -12,6 +12,7 @@
       A few algorithms and datastructures for C#
     </Description>
     <PackageTags>algorithms;datastructures</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
 </Project>
