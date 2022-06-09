@@ -21,4 +21,14 @@ public static class ExtensionMethods
   {
     return num % divisor == 0;
   }
+
+  public static char ToUpper(this char c)
+  {
+    return (c+"").ToUpper()[0];
+  }
+
+  public static char ToLower(this char c)
+  {
+    return (c+"").ToLower()[0];
+  }
 }

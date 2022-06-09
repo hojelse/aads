@@ -1,13 +1,45 @@
 ﻿using AADS;
-using static AADS.Algorithms;
+// using static AADS.BaseConverter;
+// using static AADS.CaesarCipher;
+// using static AADS.PrimeSieve;
 
 class Examples
 {
   public static void Main()
   {
-    Example_Prime_GetPrimes();
-    Console.WriteLine();
-    Example_Datastructure_OArray();
+    new AADS.Tree();
+    // ROP.FindGadgets(new byte[] {0x1});
+  //   Example_Prime_GetPrimes();
+  //   Console.WriteLine();
+
+  //   Example_Datastructure_OArray();
+  //   Console.WriteLine();
+
+  //   Example_ConvertBase();
+  //   Console.WriteLine();
+    
+  //   Example_TryCaesarCipherDecrypt();
+  //   Console.WriteLine();
+  }
+
+  static void Example_TryCaesarCipherDecrypt()
+  {
+    string cipher = "cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_uJdSftmh}";
+    var clear = CaesarCipher.TryCaesarCipherDecrypt(cipher, "picoCTF");
+    Console.WriteLine(clear);
+  }
+
+  static void Example_ConvertBase()
+  {
+    int newBase = 256;
+    string decimalNumber = "13016382529449106065927291425342535437996222135352905256639647889241102700065917";
+
+    var input = System.Numerics.BigInteger.Parse(decimalNumber);
+    var output = BaseConverter.ConvertBase(input, newBase);
+
+    // Print as readable text
+    output.Reverse();
+    Console.WriteLine(output.Select(x => (char)x).ToArray());
   }
 
   static void Example_ExtensionMethods_Mod()
@@ -20,7 +52,7 @@ class Examples
   static void Example_Prime_GetPrimes()
   {
     int upperBound = 20;
-    int[] primes = GetPrimes(upperBound);
+    int[] primes = PrimeSieve.GetPrimes(upperBound);
 
     Console.WriteLine($"Example_Prime_GetPrimes...");
 
